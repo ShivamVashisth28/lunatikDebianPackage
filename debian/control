@@ -1,0 +1,15 @@
+Source: lunatik
+Section: libs
+Priority: optional
+Maintainer: Shivam Vashisth <vashsisth11shivam@gmail.com>
+Build-Depends: debhelper-compat (= 13), lua5.3, liblua5.3-dev
+Standards-Version: 4.6.1
+Homepage: https://github.com/luainkernel/lunatik
+Rules-Requires-Root: no
+
+Package: lunatik
+Architecture: any
+Depends: \${misc:Depends}, \${shlibs:Depends}, lua5.3
+Description: Lua scripting for the Linux kernel
+ Lunatik is a framework that allows the execution of Lua scripts inside the Linux kernel. 
+ It provides an interface for kernel modules to embed and execute Lua scripts safely.
