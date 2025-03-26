@@ -1,3 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: lunatik
 Source: https://github.com/luainkernel/lunatik
+
+Files: *
+Copyright: 2024 Lunatik Developers
+License: GPL-2.0+
